@@ -196,6 +196,15 @@ td {
   .narrow_table {
     display:none;
   }
+
+  .everything {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -205,6 +214,12 @@ td {
   
   #hidden_heading{
     display: block;
+    margin-top: 19px;
+    width: 78%;
+  }
+
+  #rp_box {
+    margin-bottom: 19px;
   }
 
 
